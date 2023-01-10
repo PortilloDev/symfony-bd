@@ -1,6 +1,6 @@
 
 
-Construir la aplicación con 
+Steps for build the application:
 
 ```
 - composer create-project symfony/skeleton:"6.2.*" application
@@ -9,5 +9,10 @@ Construir la aplicación con
 
 ```
 
+## Dependencies:
 
+Databases dependency: composer require symfony/orm-pack
+Templates front: composer require symfony/twig-pack
+Debbug: composer require symfony/debug-pack
+Bundle: composer require symfony/maker-bundle --dev
 
