@@ -1,4 +1,4 @@
-# Skeleton de un entorno dockerizado para proyectos en Symfony
+#  Symfony Project
 
 ## Servicios
 
@@ -25,9 +25,10 @@ Steps for build the application:
 ```
 
 ## Dependencies:
-
+```
 Databases dependency: composer require symfony/orm-pack
 Templates front: composer require symfony/twig-pack
 Debbug: composer require symfony/debug-pack
 Bundle: composer require symfony/maker-bundle --dev
-
+Admin Panel: composer require easycorp/easyadmin-bundle
+```
